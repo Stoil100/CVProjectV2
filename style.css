@@ -26,40 +26,40 @@ body {
 }
 
 /* text-colours, fonts, sizes and other misc*/
-.gradiantBG {
+.text--gradiant {
     background-image: linear-gradient(94deg, #ff26b2 0%, #851bd9 64%, #3f0fff 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.px9 {
+.text--9px {
     font-size: 9px;
 }
 
-.px10 {
+.text--10px {
     font-size: 10px;
 }
 
-.px11 {
+.text--11px {
     font-size: 11px;
 }
 
-.px12 {
+.text--12px {
     font-size: 12px;
 }
 
-.grayText {
+.text--gray {
     color: #999;
     font-size: 300;
 }
 
-.boldGrayText {
+.text--boldGray {
     font-weight: bold;
     color: #999;
 }
 
-.boldBlackText {
+.text--bold {
     font-weight: bold;
 
 }
@@ -81,12 +81,12 @@ body {
     font-weight: bold;
 }
 
-.titleDescription {
+.title__description {
     font-size: 12px;
     font-weight: bold;
 }
 
-.headerDescription {
+.header__description {
     padding-top: 14px;
     padding-bottom: 14px;
 }
@@ -131,7 +131,7 @@ body {
     padding-bottom: 7px;
 }
 
-.cardDescription {
+.card__description {
     padding-top: 4px;
     padding-bottom: 4.5px;
 }
@@ -147,7 +147,7 @@ hr {
     margin-right: 16px;
 }
 
-.paddingGrayText {
+.GrayText--padding {
     margin-bottom: 7.5px;
 }
 
@@ -160,7 +160,7 @@ hr {
     padding-top: 2px;
 }
 
-.paddingTitle {
+.title--padding {
     padding-top: 22px;
 }
 
