@@ -25,6 +25,11 @@ body {
     margin: auto;
 }
 
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+
 /* text-colours, fonts, sizes and other misc*/
 .text--gradiant {
     background-image: linear-gradient(94deg, #ff26b2 0%, #851bd9 64%, #3f0fff 100%);
@@ -132,6 +137,7 @@ body {
 }
 
 .card__description {
+    display:block;
     padding-top: 4px;
     padding-bottom: 4.5px;
 }
