@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    text-align: left;
+    text-decoration: none;
+    font-family: IBM Plex Sans;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    font-weight: normal;
+}
+
+body {
+    background-color: black;
+}
+
+.base {
+    width: 612px;
+    height: 792px;
+    flex-grow: 0;
+    padding: 46px 13px 0px 16px;
+    background-color: #fff;
+    margin: auto;
+}
+
+/* text-colours, fonts, sizes and other misc*/
+.gradiantBG {
+    background-image: linear-gradient(94deg, #ff26b2 0%, #851bd9 64%, #3f0fff 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.px9 {
+    font-size: 9px;
+}
+
+.px10 {
+    font-size: 10px;
+}
+
+.px11 {
+    font-size: 11px;
+}
+
+.px12 {
+    font-size: 12px;
+}
+
+.grayText {
+    color: #999;
+    font-size: 300;
+}
+
+.boldGrayText {
+    font-weight: bold;
+    color: #999;
+}
+
+.boldBlackText {
+    font-weight: bold;
+
+}
+
+
+/*header css*/
+.titleAndPicture {
+    display: flex;
+    gap: 64px;
+    padding-bottom: 49px;
+}
+
+.titleAndDescription {
+    max-width: 342px;
+}
+
+.title {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.titleDescription {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.headerDescription {
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.socialMediaBox {
+    max-width: 246px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.email,
+.dribble,
+.linkedin,
+.github {
+    display: flex;
+    gap: 2px;
+}
+
+.email {
+    padding-right: 100px;
+    padding-bottom: 5px
+}
+
+.linkedin,
+.github {
+    padding-right: 28px;
+}
+
+.picture {
+    align-self: center;
+}
+
+/*main section css*/
+
+.mainDescription {
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionTitle {
+    padding-bottom: 7px;
+}
+
+.cardDescription {
+    padding-top: 4px;
+    padding-bottom: 4.5px;
+}
+
+hr {
+    margin-bottom: 6px;
+}
+
+.leftSideContent {
+    display: flex;
+    flex-direction: column;
+    min-width: 342px;
+    margin-right: 16px;
+}
+
+.paddingGrayText {
+    margin-bottom: 7.5px;
+}
+
+.descriptionLinks {
+    display: flex;
+    text-decoration: underline;
+}
+
+.rightSideContent p {
+    padding-top: 2px;
+}
+
+.paddingTitle {
+    padding-top: 22px;
+}
+
+.paddingLinkDescription {
+    margin-top: 9px;
+}
