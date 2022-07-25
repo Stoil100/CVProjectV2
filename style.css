@@ -25,9 +25,9 @@ body {
     margin: auto;
 }
 
-a{
+a {
     text-decoration: none;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* text-colours, fonts, sizes and other misc*/
@@ -137,7 +137,7 @@ a{
 }
 
 .card__description {
-    display:block;
+    display: block;
     padding-top: 4px;
     padding-bottom: 4.5px;
 }
