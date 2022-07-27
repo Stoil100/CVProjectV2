@@ -157,11 +157,11 @@ hr {
 }
 
 
-.experience .card p:first-of-type {
+.experience .contentBox p:first-of-type {
     margin-top: 2px;
 } 
 
-.experience .card p:last-of-type {
+.experience .contentBox p:last-of-type {
     margin-bottom: 3.5px;
 }
 
