@@ -14,6 +14,7 @@
 
 body {
     background-color: black;
+    max-height: 792px;
 }
 
 .base {
@@ -106,7 +107,6 @@ hr {
 }
 
 .socialMediaBox {
-    max-width: 246px;
     width: 246px;
     display: flex;
     flex-wrap: wrap;
@@ -123,7 +123,9 @@ hr {
 }
 
 .email {
-    flex-basis: 100%;
+    /* I tried with flex-basis:100%; but that 
+    makes the whole width of the box a link*/
+    margin-right: 100%;
 }
 
 .picture {
@@ -138,16 +140,15 @@ hr {
 }
 
 .sectionTitle {
-    margin-bottom: 7px;
+    margin-bottom: 6px;
 }
 
-hr {
+hr{
     margin-bottom: 6px;
 }
 
 .experience {
     margin-left: 16px;
-
     min-width: 342px;
     margin-right: 16px;
 }
@@ -162,7 +163,7 @@ hr {
 } 
 
 .experience .contentBox p:last-of-type {
-    margin-bottom: 3.5px;
+    margin-bottom: 2.5px;
 }
 
 
