@@ -176,7 +176,7 @@ hr {
     text-decoration: underline;
 }
 
-.descriptionLinks:last-of-type p:last-of-type {
+.descriptionLinks:last-of-type p:not(first-of-type) {
     margin-top: 9px;
 }
 
