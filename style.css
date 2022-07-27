@@ -147,7 +147,7 @@ hr {
 
 .experience {
     margin-left: 16px;
-    display: block;
+
     min-width: 342px;
     margin-right: 16px;
 }
@@ -156,9 +156,10 @@ hr {
     max-width: 342px;
 }
 
+
 .experience .card p:first-of-type {
     margin-top: 2px;
-}
+} 
 
 .experience .card p:last-of-type {
     margin-bottom: 3.5px;
