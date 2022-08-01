@@ -158,11 +158,12 @@ hr {
 }
 
 
-.experience .contentBox p:first-of-type {
+.p__marginT {
     margin-top: 2px;
 }
 
-.experience .contentBox p:last-of-type {
+.p__marginB
+{
     margin-bottom: 2.5px;
 }
 
