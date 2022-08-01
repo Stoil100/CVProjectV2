@@ -178,8 +178,8 @@ hr {
     text-decoration: underline;
 }
 
-.descriptionLinks:last-of-type p:not(first-of-type) {
-    margin-top: 9px;
+.descriptionLinks__paddingT {
+    padding-top: 9px;
 }
 
 .rightSideContent {
@@ -194,6 +194,3 @@ hr {
     margin-top: 22px;
 }
 
-.marginLinkDescription {
-    margin-top: 9px;
-}
