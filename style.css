@@ -21,7 +21,6 @@ body {
     width: 612px;
     height: 792px;
     flex-grow: 0;
-    /* padding: 46px 13px 0px 16px; */
     background-color: #fff;
     margin: auto;
 }
@@ -109,8 +108,12 @@ hr {
     width: 246px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 5px 0px;
+    gap:5px 0px;
+}
+.socialMediaBox__secondRow{
+    width: inherit;
+    display: flex;
+    justify-content:space-between;
 }
 
 .email,
@@ -119,12 +122,6 @@ hr {
 .github {
     display: flex;
     gap: 2px;
-}
-
-.email {
-    /* I tried with flex-basis:100%; but that 
-    makes the whole width of the box a link*/
-    margin-right: 100%;
 }
 
 .picture {
@@ -157,12 +154,11 @@ hr {
 }
 
 
-.p__marginT {
+.experience .contentBox p:first-of-type {
     margin-top: 2px;
-}
+} 
 
-.p__marginB
-{
+.experience .contentBox p:last-of-type {
     margin-bottom: 2.5px;
 }
 
@@ -177,7 +173,7 @@ hr {
     text-decoration: underline;
 }
 
-.descriptionLinks__paddingT {
+.descriptionLinks__paddingTop {
     padding-top: 9px;
 }
 
