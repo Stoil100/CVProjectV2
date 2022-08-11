@@ -24,6 +24,11 @@ body {
     background-color: #fff;
     margin: auto;
 }
+@media (max-width:15em) {
+    .base{
+        height: fit-content;
+    }
+}
 
 a {
     text-decoration: none;
@@ -83,21 +88,27 @@ hr {
     margin-bottom: 49px;
 }
 
+@media(max-width:15em){
+    .hero{
+        flex-direction: column;
+    }
+}
+
 .hero__text {
     max-width: 342px;
 }
 
-.title {
+.hero__title {
     font-size: 44px;
     font-weight: bold;
 }
 
-.title__description {
+.hero__title__description {
     font-size: 12px;
     font-weight: bold;
 }
 
-.header__description {
+.hero__description {
     margin-top: 14px;
     margin-bottom: 14px;
 }
@@ -132,6 +143,14 @@ hr {
 .mainDescription {
     display: flex;
     flex-direction: row;
+}
+@media (max-width:15em) {
+    .mainDescription {
+        flex-direction: column;
+    }
+    .rightSideContent{
+        margin-left:16px;
+    }
 }
 
 .contentBox__title {
