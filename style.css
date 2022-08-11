@@ -24,11 +24,6 @@ body {
     background-color: #fff;
     margin: auto;
 }
-@media (max-width:15em) {
-    .base{
-        height: fit-content;
-    }
-}
 
 a {
     text-decoration: none;
@@ -88,12 +83,6 @@ hr {
     margin-bottom: 49px;
 }
 
-@media(max-width:15em){
-    .hero{
-        flex-direction: column;
-    }
-}
-
 .hero__text {
     max-width: 342px;
 }
@@ -143,14 +132,6 @@ hr {
 .mainDescription {
     display: flex;
     flex-direction: row;
-}
-@media (max-width:15em) {
-    .mainDescription {
-        flex-direction: column;
-    }
-    .rightSideContent{
-        margin-left:16px;
-    }
 }
 
 .contentBox__title {
@@ -205,4 +186,20 @@ hr {
 
 .title--margin {
     margin-top: 22px;
+}
+/*media*/
+
+@media (max-width:612px) {
+    .base{
+        height: fit-content;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .mainDescription {
+        flex-direction: column;
+    }
+    .rightSideContent{
+        margin-left:16px;
+    }
 }
