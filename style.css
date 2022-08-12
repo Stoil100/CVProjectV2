@@ -37,15 +37,15 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-.textSize__s {
+.textSize__9px {
     font-size: 9px;
 }
 
-.textSize__m {
+.textSize__10px {
     font-size: 10px;
 }
 
-.textSize__l {
+.textSize__11px {
     font-size: 12px;
 }
 
@@ -105,6 +105,7 @@ hr {
     width: 246px;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 5px 0px;
 }
 
@@ -112,6 +113,7 @@ hr {
     width: inherit;
     display: flex;
     justify-content: space-between;
+
 }
 
 .email,
@@ -206,8 +208,11 @@ hr {
         margin-bottom: 10px;
     }
     .socialMediaBox{
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
         width: auto;
+    }
+    .socialMediaBox__secondRow{
+        gap:5px;
     }
 }
