@@ -113,6 +113,8 @@ hr {
     width: inherit;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+
 
 }
 
@@ -145,7 +147,7 @@ hr {
 
 .experience {
     margin-left: 16px;
-    min-width: 342px;
+   
     margin-right: 16px;
 }
 
@@ -215,4 +217,5 @@ hr {
     .socialMediaBox__secondRow{
         gap:5px;
     }
+ 
 }
