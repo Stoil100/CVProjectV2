@@ -101,6 +101,11 @@ hr {
     margin-bottom: 14px;
 }
 
+.avatarImg{
+    height: auto;
+    width: 100%;
+}
+
 .socialMediaBox {
     width: 246px;
     display: flex;
